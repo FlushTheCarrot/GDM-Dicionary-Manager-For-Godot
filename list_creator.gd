@@ -7,14 +7,6 @@ var list: Dictionary = {}
 
 
 
-#used to create bools
-func lists_bools(L_Name: String, L_Status: bool):
-	list[L_Name] = L_Status
-
-#used to create strings that are strings
-func lists_strings(L_String: String, L_Result: String):
-	list[L_String] = L_Result
-
 #used to create values
 func lists_values(L_String: String, L_Value):
 	list[L_String] = L_Value
